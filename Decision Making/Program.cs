@@ -22,7 +22,37 @@ namespace Decision_Making
             }
 
 
+            int month = DateTime.Now.Month;
 
+            switch(month)
+            {
+                case 1:
+                    Console.WriteLine("January");
+                    break;
+                case 2:
+                    Console.WriteLine("February");
+                    break;
+                case 3:
+                    Console.WriteLine("March");
+                    break;
+                    Console.WriteLine("Other Months");
+                    break;
+            }
+            switch (month)
+            {
+                case 12:
+                case 1:
+                case 2:
+                    Console.WriteLine("Winter");
+                    break;
+                case 6:
+                case 7:
+                case 8:
+                    Console.WriteLine("Summer");
+                    break;
+                default:
+                    break;
+            }
     }
 }
 }
