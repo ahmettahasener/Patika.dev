@@ -35,6 +35,7 @@ namespace Decision_Making
                 case 3:
                     Console.WriteLine("March");
                     break;
+                default:
                     Console.WriteLine("Other Months");
                     break;
             }

@@ -5,13 +5,17 @@ VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Variables", "Variables\Variables.csproj", "{E80AE98B-C32F-4178-AD1F-9BFC50299E11}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Operators", "Operators\Operators.csproj", "{52B4D7C1-0ACF-45A9-A375-0B07052C13DA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Operators", "Operators\Operators.csproj", "{52B4D7C1-0ACF-45A9-A375-0B07052C13DA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Type Conversions", "Type Conversions\Type Conversions.csproj", "{F241DE52-9D04-46F9-955B-3A7E74843545}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Type Conversions", "Type Conversions\Type Conversions.csproj", "{F241DE52-9D04-46F9-955B-3A7E74843545}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decision Making", "Decision Making\Decision Making.csproj", "{733822C1-618A-4C0B-8B5A-CF9F6BF778BF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Decision Making", "Decision Making\Decision Making.csproj", "{733822C1-618A-4C0B-8B5A-CF9F6BF778BF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exception Handling", "Exception Handling\Exception Handling.csproj", "{9FBF961F-92DA-4D2B-BB58-9897C73BFB53}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exception Handling", "Exception Handling\Exception Handling.csproj", "{9FBF961F-92DA-4D2B-BB58-9897C73BFB53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loops", "Loops\Loops.csproj", "{F1EFE83C-366A-43E9-A487-2348F625BEE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays", "Arrays\Arrays.csproj", "{47BF67B0-624B-48AF-BA3E-3D6482A60892}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +43,14 @@ Global
 		{9FBF961F-92DA-4D2B-BB58-9897C73BFB53}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9FBF961F-92DA-4D2B-BB58-9897C73BFB53}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9FBF961F-92DA-4D2B-BB58-9897C73BFB53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1EFE83C-366A-43E9-A487-2348F625BEE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1EFE83C-366A-43E9-A487-2348F625BEE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1EFE83C-366A-43E9-A487-2348F625BEE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1EFE83C-366A-43E9-A487-2348F625BEE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47BF67B0-624B-48AF-BA3E-3D6482A60892}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47BF67B0-624B-48AF-BA3E-3D6482A60892}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47BF67B0-624B-48AF-BA3E-3D6482A60892}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47BF67B0-624B-48AF-BA3E-3D6482A60892}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
