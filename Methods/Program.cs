@@ -146,7 +146,7 @@ namespace Methods
         public static string RemoveWhiteSpaces(this string param)
         {
             string[] array = param.Split(" ");
-            return string.Join("",array);
+            return string.Join("", array);
         }
 
         public static string MakeUpperCase(this string param)
