@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 
 namespace Collections
@@ -96,6 +97,45 @@ namespace Collections
                 Console.WriteLine("Name = {0}, Surname = {1}, Age = {2}",user.Name,user.Surname,user.Age);
             }
 
+
+            //**********ArrayList**********
+            ArrayList list = new ArrayList();
+            list.Add("c#");
+            list.Add(44);
+            list.Add(true);
+
+            Console.WriteLine(list[1]);
+
+            foreach (var item in list)
+                Console.WriteLine(item);
+
+            //AddRange
+            string[] colours = { "red", "blue", "green" };
+            list.AddRange(colours);
+            List<int> numbers = new List<int>() {1,4,5,7,9,23,56};
+            list.AddRange(numbers);
+
+            foreach (var item in list)
+                Console.WriteLine(item);
+
+            //Sort
+            //string expressions in the list cause problems. The list should consist of int32s so that there is no problem during runtime
+
+            //list.Sort();
+
+
+            //BinarySearch
+            //To use binary search, you need to sort beforehand. We couldn't sort it because it contains string expressions in the list.
+            Console.WriteLine(list.BinarySearch(9));
+
+            //Reverse
+
+            //list.Reverse();
+
+            //Clear
+            //We couldn't use the clear method because there is bool in the list
+            
+            //Console.WriteLine(list.Clear());
 
         }
     }
