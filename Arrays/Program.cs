@@ -54,7 +54,7 @@ namespace Arrays
             }
 
 
-            //clear (Using array 2 elements, it converts 2 piece elements to 0 starting from the 3rd index.)
+            //clear (Using array2 elements, it converts 2 piece elements to 0 starting from the 3rd index.)
             Console.WriteLine("*****clear*****");
             Array.Clear(array2, 3, 2);
             foreach (var number in array2)
