@@ -31,6 +31,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Class", "Class\Class.csproj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Static Class And Struct", "Static Class\Static Class And Struct.csproj", "{FF987A27-754F-4AD3-893A-3179401CDFE5}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Enum", "Enum\Enum.csproj", "{3B63D901-70E3-4941-BDFC-03286D481E33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP", "OOP\OOP.csproj", "{0013AFA7-1DE7-4209-B262-E3ECD491F72C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +97,14 @@ Global
 		{FF987A27-754F-4AD3-893A-3179401CDFE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FF987A27-754F-4AD3-893A-3179401CDFE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FF987A27-754F-4AD3-893A-3179401CDFE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B63D901-70E3-4941-BDFC-03286D481E33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B63D901-70E3-4941-BDFC-03286D481E33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B63D901-70E3-4941-BDFC-03286D481E33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B63D901-70E3-4941-BDFC-03286D481E33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0013AFA7-1DE7-4209-B262-E3ECD491F72C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0013AFA7-1DE7-4209-B262-E3ECD491F72C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0013AFA7-1DE7-4209-B262-E3ECD491F72C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0013AFA7-1DE7-4209-B262-E3ECD491F72C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
