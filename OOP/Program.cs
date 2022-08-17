@@ -1,4 +1,5 @@
-﻿using System;
+﻿using OOP.Inheritance;
+using System;
 
 namespace OOP
 {
@@ -6,7 +7,13 @@ namespace OOP
     {
         static void Main(string[] args)
         {
-            
+            SeedPlants seedPlant = new SeedPlants();
+            seedPlant.PropagationBySeed();
+
+            Console.WriteLine("***********************");
+
+            Birds Eagle = new Birds();
+            Eagle.Fly();
         }
     }
 }
