@@ -33,7 +33,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Static Class And Struct", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Enum", "Enum\Enum.csproj", "{3B63D901-70E3-4941-BDFC-03286D481E33}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP", "OOP\OOP.csproj", "{0013AFA7-1DE7-4209-B262-E3ECD491F72C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inheritance And Polymorphism", "OOP\Inheritance And Polymorphism.csproj", "{0013AFA7-1DE7-4209-B262-E3ECD491F72C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
